@@ -1,0 +1,39 @@
+.current {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem;
+}
+
+.current-info {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  color: var(--text-primary);
+  text-align: center;
+}
+
+.current-info h1 {
+  font-size: 12rem;
+  font-weight: 400;
+}
+
+.current-info h3 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  transform: translateX(-2rem);
+}
+
+.current-data p {
+  display: flex;
+  align-items: center;
+}
+
+.current-data span {
+  font-size: 1.25rem;
+}
+
+.current-data svg {
+  font-size: 3rem;
+  margin-right: 5px;
+}
